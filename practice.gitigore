@@ -1,0 +1,14 @@
+# Ignore macOS debugging folders and DS_Store
+*.dSYM/
+.DS_Store
+
+# Ignore compiled binaries
+*.out
+*.exe
+*.o
+
+# Ignore executables without extensions (like 'a' alongside 'a.c')
+*
+!*.*
+!.gitignore
+!README.md
